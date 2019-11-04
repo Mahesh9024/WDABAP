@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" configfailurepolicy="continue" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test">
+    <classes>
+      <class name="com.wdabapsp.test.WD_ABA_RT_VANISHING_ELEM_ADM"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.wdabapsp.test.WD_ABA_RT_VANISHING_ELEM_ADM">
+        <methods>
+          <include name="Setup"/>
+          <include name="WD_ABA_TOGGLEBUTTON"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.wdabapsp.test.WD_ABA_RT_VANISHING_ELEM_ADM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

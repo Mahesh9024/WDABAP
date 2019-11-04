@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[User successfully Logged in]]>
+    </line>
+    <line>
+      <![CDATA[Fail : Test was run successfully and a green check mark displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="59414" started-at="2019-03-25T08:27:31Z" finished-at="2019-03-25T08:28:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="59414" started-at="2019-03-25T08:27:31Z" finished-at="2019-03-25T08:28:31Z">
+      <class name="com.wdabapsp.test.WDA_SSR_CLIENT_DELTA_RENDERING">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wdabapsp.test.WDA_SSR_CLIENT_DELTA_RENDERING@29ee9faa]" name="setUp" is-config="true" duration-ms="39327" started-at="2019-03-25T13:57:31Z" finished-at="2019-03-25T13:58:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User successfully Logged in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SSR_CLIENT_DELTA_RENDERING()[pri:0, instance:com.wdabapsp.test.WDA_SSR_CLIENT_DELTA_RENDERING@29ee9faa]" name="SSR_CLIENT_DELTA_RENDERING" duration-ms="20070" started-at="2019-03-25T13:58:11Z" finished-at="2019-03-25T13:58:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Fail : Test was run successfully and a green check mark displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SSR_CLIENT_DELTA_RENDERING -->
+      </class> <!-- com.wdabapsp.test.WDA_SSR_CLIENT_DELTA_RENDERING -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
